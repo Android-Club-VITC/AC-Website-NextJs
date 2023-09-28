@@ -1,5 +1,7 @@
 Main branch deployed on Vercel
 
+Figma Design: https://www.figma.com/file/ydL7ac5aGDjrXUMtV7ggqp/Android-Club-Website?type=design&node-id=0-1&mode=design&t=lmsNsFsTNMotB50d-0
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
