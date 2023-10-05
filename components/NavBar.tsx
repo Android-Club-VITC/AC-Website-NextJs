@@ -1,12 +1,13 @@
 export default function NavBar() {
   const tabs: string[] = [
-    "Home",
-    "About Us",
+    "HOME",
+    "ABOUT US",
     "OUR TEAM",
     "EVENTS",
     "ARCHIVES",
     "CONTACT US",
   ];
+  
   return (
     <div className="flex justify-center">
       <div className="flex justify-around items-center bg-transparent bg-gray-800 p-1 px-6 w-fit rounded-3xl">

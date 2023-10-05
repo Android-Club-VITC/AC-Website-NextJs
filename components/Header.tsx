@@ -4,13 +4,14 @@ import Button from "./Button";
 
 export default function Header() {
   const tabs: string[] = [
-    "Home",
-    "About Us",
+    "HOME",
+    "ABOUT US",
     "OUR TEAM",
     "EVENTS",
     "ARCHIVES",
     "CONTACT US",
   ];
+  
   return (
     <div className="flex justify-around items-center">
       <Image src={logo} alt="logo" className="w-1/12" />
