@@ -13,10 +13,7 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      fontFamily: {
-        'odibee-sans': ['Odibee Sans', 'cursive'],
-        inter: ['Inter'],
-      },
+      
     },
   },
   plugins: [],
