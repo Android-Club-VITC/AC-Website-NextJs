@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import CoreValues from "@/components/CoreValues";
+import AboutUs from "@/components/AboutUs";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen">
       <div className="p-4">
         <Header />
-        <div className="p-24">
+        <div className="p-24" id="home">
           <div className="flex flex-col gap-4 text-7xl font-medium">
             <p>ANDROID CLUB</p>
             <p>VIT CHENNAI</p>
@@ -25,10 +25,10 @@ export default function Home() {
             <i className="fa-brands fa-linkedin" />
           </div>
         </div>
-        {/* <CoreValues /> */}
-        <NavBar />
 
       </div>
+        <NavBar />
+        <AboutUs />
       <Footer />
     </div>
   );

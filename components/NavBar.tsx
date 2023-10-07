@@ -13,9 +13,9 @@ export default function NavBar() {
       <div className="flex justify-around items-center bg-transparent bg-gray-800 p-1 px-6 w-fit rounded-3xl">
         <div className="flex gap-2">
           {tabs.map((tab) => (
-            <p className="hover:text-white text-gray-500 hover:underline hover:underline-offset-8 font-bold p-2">
+            <a className="hover:text-white text-gray-500 hover:underline hover:underline-offset-8 font-bold p-2">
               {tab}
-            </p>
+            </a>
           ))}
         </div>
       </div>
