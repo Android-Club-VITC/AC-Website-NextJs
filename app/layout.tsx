@@ -1,8 +1,13 @@
-import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Odibee_Sans } from "next/font/google";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const odibeeSans = Odibee_Sans({
+  subsets: ["latin"],
+  weight: "400"
+});
 
 export const metadata: Metadata = {
   title: "Android Club | VITC",
@@ -25,7 +30,11 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={odibeeSans.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
