@@ -34,8 +34,8 @@ Our website serves as the official online presence for the Android Club at VIT C
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Primary | ![#55C106](https://via.placeholder.com/10/55C106?text=+) #55C106 |
-| Secondary | ![#121316](https://via.placeholder.com/10/666666?text=+) #666666 |
-| Tertiary | ![#1D2229](https://via.placeholder.com/10/121316?text=+) #121316
+| Secondary | ![#121316](https://via.placeholder.com/10/121316?text=+) #121316 |
+| Tertiary | ![#1D2229](https://via.placeholder.com/10/1D2229?text=+) #1D2229 |
 
 
 ### Images
