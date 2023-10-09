@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Odibee_Sans } from "next/font/google";
+import StarsCanvas from '@/components/canvas/Background_Stars';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -31,6 +32,7 @@ export default function RootLayout({
         />
       </head>
       <body className={odibeeSans.className}>
+        <StarsCanvas />
         <Header />
         {children}
         <Footer />
