@@ -9,7 +9,7 @@ function Section_1() {
                     <p>VIT CHENNAI</p>
                     <hr className="text-white border-2 border-white w-32" />
                 </div>
-                <div className="mt-6 flex items-center gap-4">
+                <div className="mt-6 flex items-center text-xl gap-16">
                     <Button text="UPCOMING EVENTS" />
                     <p>LEARN MORE</p>
                 </div>
