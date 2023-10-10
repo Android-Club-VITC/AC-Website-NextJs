@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <div className="flex flex-wrap gap-2 justify-center items-center bg-[#1D2229] p-4">
-      Copyright © <p className="text-green-500">Android Club 2023</p> | all
-      Rights Reserved
+    <div className="flex flex-wrap gap-2 justify-center items-center text-xl bg-[#1D2229] p-4">
+      COPYRIGHT © <p className="text-green-500">ANDROID CLUB 2023</p> | ALL
+      RIGHTS RESERVED
     </div>
-  );
+  )
 }
