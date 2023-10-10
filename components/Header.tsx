@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.png'
 import Button from './Button'
 
 export default function Header() {
