@@ -1,8 +1,8 @@
-"use client";
+'use client'
 // we need to optimise this somehow use of sectionWrapper is not good...
 // ~Shubham
 import Button from '@/components/Button'
-import { SectionWrapper } from '@/components/HOC';
+import { SectionWrapper } from '@/components/HOC'
 
 function Section_1() {
   return (
@@ -25,4 +25,4 @@ function Section_1() {
   )
 }
 
-export default SectionWrapper(Section_1, 'Section_1');
+export default SectionWrapper(Section_1, 'Section_1')

@@ -32,12 +32,14 @@ export default function Header() {
         <Image
           src={logo}
           alt="logo"
-          className={`w-1/12 transition-opacity duration-300 ${hideImage ? 'opacity-0' : 'opacity-100'
-            }`}
+          className={`w-1/12 transition-opacity duration-300 ${
+            hideImage ? 'opacity-0' : 'opacity-100'
+          }`}
         />
         <div
-          className={`flex gap-2 px-4 py-1 ${hideImage ? 'bg-tertiary rounded-3xl' : ''
-            }`}
+          className={`flex gap-2 px-4 py-1 ${
+            hideImage ? 'bg-tertiary rounded-3xl' : ''
+          }`}
         >
           {navLinks.map((tab) => (
             <a key={tab.label} href={tab.link}>
@@ -49,8 +51,9 @@ export default function Header() {
         </div>
 
         <div
-          className={`transition-opacity text-xl duration-300 ${hideButton ? 'opacity-0' : 'opacity-100'
-            }`}
+          className={`transition-opacity text-xl duration-300 ${
+            hideButton ? 'opacity-0' : 'opacity-100'
+          }`}
         >
           <a href="#Section_6" title="Section_6">
             <Button text="GET YOUR APP BUILT" />

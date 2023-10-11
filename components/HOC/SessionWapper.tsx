@@ -1,6 +1,6 @@
-'use client';
-import { motion } from 'framer-motion';
-import { staggerContainer } from '@/utils/motion';
+'use client'
+import { motion } from 'framer-motion'
+import { staggerContainer } from '@/utils/motion'
 
 const SectionWrapper = (Component: React.JSX.Element | any, idName: string) =>
   function HOC() {
@@ -15,7 +15,7 @@ const SectionWrapper = (Component: React.JSX.Element | any, idName: string) =>
         <span id={idName}>&nbsp;</span>
         <Component />
       </motion.section>
-    );
-  };
+    )
+  }
 
-export default SectionWrapper;
+export default SectionWrapper

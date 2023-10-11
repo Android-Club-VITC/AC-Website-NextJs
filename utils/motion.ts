@@ -13,8 +13,8 @@ export const textVariant = (delay: number) => {
         delay: delay,
       },
     },
-  };
-};
+  }
+}
 
 export const fadeIn = (
   direction: any,
@@ -39,8 +39,8 @@ export const fadeIn = (
         ease: 'easeOut',
       },
     },
-  };
-};
+  }
+}
 
 export const zoomIn = (delay: any, duration: any) => {
   return {
@@ -58,8 +58,8 @@ export const zoomIn = (delay: any, duration: any) => {
         ease: 'easeOut',
       },
     },
-  };
-};
+  }
+}
 
 export const slideIn = (
   direction: any,
@@ -82,8 +82,8 @@ export const slideIn = (
         ease: 'easeOut',
       },
     },
-  };
-};
+  }
+}
 
 export const staggerContainer = (
   staggerChildren: any,
@@ -99,5 +99,5 @@ export const staggerContainer = (
         delayChildren: delayChildren || 0,
       },
     },
-  };
-};
+  }
+}
