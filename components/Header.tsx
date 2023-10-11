@@ -56,7 +56,7 @@ export default function Header() {
           }`}
         >
           <a href="#Section_6" title="Section_6">
-            <Button text="GET YOUR APP BUILT" />
+            <Button url="#Section_6" text="GET YOUR APP BUILT" />
           </a>
         </div>
       </div>
