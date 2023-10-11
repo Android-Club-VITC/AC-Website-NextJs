@@ -1,5 +1,5 @@
-import Section_1 from "./(Home)/Section1";
-import Section_2 from "./(Home)/Section2";
+import Section_1 from './(Home)/Section1'
+import Section_2 from './(Home)/Section2'
 
 export default function page() {
   return (
@@ -7,5 +7,5 @@ export default function page() {
       <Section_1 />
       <Section_2 />
     </>
-  );
+  )
 }
