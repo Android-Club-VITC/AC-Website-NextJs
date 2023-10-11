@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import AboutUs from "@/components/AboutUs";
+import Section2 from "@/app/Home/Section2";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
@@ -28,7 +28,7 @@ export default function Home() {
 
       </div>
         <NavBar />
-        <AboutUs />
+        <Section2 />
       <Footer />
     </div>
   );

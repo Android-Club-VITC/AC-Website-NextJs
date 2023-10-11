@@ -9,7 +9,7 @@ type CoreValueType = {
     title: string;
     description: string;
 };
-const AboutUs = () => {
+const Section2 = () => {
     const values: CoreValueType[] = [
         {
             svgSource: scrollIcon,
@@ -48,4 +48,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default Section2;
