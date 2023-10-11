@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import scrollIcon from "../assets/scroll.svg";
-import monitorIcon from "../assets/monitor1.svg";
-import questionIcon from "../assets/question.svg";
+import scrollIcon from "../../assets/about/scroll.svg";
+import monitorIcon from "../../assets/about/monitor1.svg";
+import questionIcon from "../../assets/about/question.svg";
 
 type CoreValueType = {
     svgSource: any;
@@ -33,7 +33,7 @@ const Section2 = () => {
             <div className="px-6 mt-12 flex gap-4 justify-center  flex-col md:flex-row">
                 {values.map((value) => {
                     return (
-                        <div className=" bg-[#121316] py-[70px] px-[60px] opacity-90
+                        <div className=" bg-[#121316] py-[70px] px-[60px] opacity-75
                          rounded border-[#485059] border-[1.5px]">
                             <Image priority src={value.svgSource} width={69} height={69} alt="work value" />
                             <p className="font-bold text-2xl mt-3 ">{value.title}</p>
