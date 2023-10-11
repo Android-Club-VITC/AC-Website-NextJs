@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import logo from '@/assets/logo.png'
 import Button from './Button'
 import { navLinks } from '@/constants/navLinks'
@@ -42,11 +43,11 @@ export default function Header() {
           }`}
         >
           {navLinks.map((tab) => (
-            <a key={tab.label} href={tab.link}>
+            <Link key={tab.label} href={tab.link}>
               <p className="hover:text-white text-gray-400 hover:underline hover:underline-offset-8 text-xl font-bold p-2">
                 {tab.label}
               </p>
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -55,9 +56,9 @@ export default function Header() {
             hideButton ? 'opacity-0' : 'opacity-100'
           }`}
         >
-          <a href="#Section_6" title="Section_6">
+          <Link href="#Section_6" title="Section_6">
             <Button url="#Section_6" text="GET YOUR APP BUILT" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
