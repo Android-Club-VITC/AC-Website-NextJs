@@ -17,9 +17,9 @@ module.exports = {
         roboto: 'Roboto',
       },
       colors: {
-        primary: '#FFFFFF',
-        secondary: '#2AC299',
-        tertiary: '#2AC299',
+        primary: '#55C106',
+        secondary: '#121316',
+        tertiary: '#1D2229',
       },
       boxShadow: {
         primary: '0 3px 13px 2px rgba(255,255,255)',

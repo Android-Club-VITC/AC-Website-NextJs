@@ -36,7 +36,7 @@ export default function Header() {
             }`}
         />
         <div
-          className={`flex gap-2 px-4 py-1 ${hideImage ? 'bg-[#1D2229] rounded-3xl' : ''
+          className={`flex gap-2 px-4 py-1 ${hideImage ? 'bg-tertiary rounded-3xl' : ''
             }`}
         >
           {navLinks.map((tab) => (
