@@ -1,11 +1,15 @@
+"use client";
+// we need to optimise this somehow use of sectionWrapper is not good...
+// ~Shubham
 import Image from 'next/image'
 import React from 'react'
 import { values } from '@/constants/aboutUs'
+import { SectionWrapper } from '@/components/HOC'
 
 const Section_2 = () => {
   return (
     <section id="about">
-      <h1 className="px-6 font-normal text-3xl sm:text-6xl tracking-wide ">
+      <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
         // OUR CORE WORK VALUES
       </h1>
       <div className="px-6 mt-12 flex gap-5 justify-center  flex-col md:flex-row">
@@ -34,4 +38,4 @@ const Section_2 = () => {
   )
 }
 
-export default Section_2
+export default SectionWrapper(Section_2, 'Section_2');
