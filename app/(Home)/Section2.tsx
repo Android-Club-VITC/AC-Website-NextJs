@@ -9,22 +9,22 @@ type CoreValueType = {
     title: string;
     description: string;
 };
-const Section2 = () => {
+const Section_2 = () => {
     const values: CoreValueType[] = [
         {
             svgSource: scrollIcon,
             title: "We Are Android Enthusiasts",
-            description: "We're a community of Android enthusiasts passionate about app development.", 
+            description: "We're a community of Android enthusiasts passionate about app development.",
         },
         {
             svgSource: monitorIcon,
             title: "Weekly Learning Sessions",
-            description: "Join us for weekly sessions where we teach Android app development.", 
+            description: "Join us for weekly sessions where we teach Android app development.",
         },
         {
             svgSource: questionIcon,
             title: "Doubt Resolution",
-            description: "We're here to help you with any questions or challenges you face along the way.", 
+            description: "We're here to help you with any questions or challenges you face along the way.",
         }
     ];
     return (
@@ -43,9 +43,9 @@ const Section2 = () => {
                 })}
             </div>
             <div className=" pl-4 ml-4 mt-32 text-xl sm:text-5xl font-normal   flex justify-center items-center h-20 bg-[#121316]">
-            <p className="tracking-widest">UNLEASH YOUR  <span className="text-[#55C106] "> ANDROID </span>  AWESOMENESS</p>            </div>
+                <p className="tracking-widest">UNLEASH YOUR  <span className="text-[#55C106] "> ANDROID </span>  AWESOMENESS</p>            </div>
         </section>
     );
 };
 
-export default Section2;
+export default Section_2;
