@@ -36,5 +36,6 @@ next-env.d.ts
 
 # package-lock
 package-lock.json
-
 yarn.lock
+pnpm-lock.yaml
+bun.lockb

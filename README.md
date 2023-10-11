@@ -1,4 +1,3 @@
-
 ![Logo](https://github.com/Android-Club-VITC/AC-Website-NextJs/assets/70687348/c0d3a063-5272-4957-ace6-45d81b9ce7e6)
 
 # Android Club Website
@@ -31,12 +30,11 @@ Our website serves as the official online presence for the Android Club at VIT C
 
 ### Color Scheme
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary | ![#55C106](https://via.placeholder.com/10/55C106?text=+) #55C106 |
+| Color     | Hex                                                              |
+| --------- | ---------------------------------------------------------------- |
+| Primary   | ![#55C106](https://via.placeholder.com/10/55C106?text=+) #55C106 |
 | Secondary | ![#121316](https://via.placeholder.com/10/121316?text=+) #121316 |
-| Tertiary | ![#1D2229](https://via.placeholder.com/10/1D2229?text=+) #1D2229 |
-
+| Tertiary  | ![#1D2229](https://via.placeholder.com/10/1D2229?text=+) #1D2229 |
 
 ### Images
 

@@ -1,24 +1,24 @@
-import type { Metadata } from "next";
-import { Odibee_Sans } from "next/font/google";
-import StarsCanvas from '@/components/canvas/Background_Stars';
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { Odibee_Sans } from 'next/font/google'
+import StarsCanvas from '@/components/canvas/Background_Stars'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import './globals.css'
 
 const odibeeSans = Odibee_Sans({
-  subsets: ["latin"],
-  weight: "400"
-});
+  subsets: ['latin'],
+  weight: '400',
+})
 
 export const metadata: Metadata = {
-  title: "Android Club | VITC",
-  description: "Android Club VITC Official Website",
-};
+  title: 'Android Club | VITC',
+  description: 'Android Club VITC Official Website',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
@@ -38,5 +38,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  );
+  )
 }
