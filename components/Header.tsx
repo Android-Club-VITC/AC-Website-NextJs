@@ -1,19 +1,11 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import logo from '../assets/logo.jpg'
+import logo from '@/assets/logo.png'
 import Button from './Button'
+import { navLinks } from '@/constants/navLinks'
 
 export default function Header() {
-  const tabs: { label: string; link: string }[] = [
-    { label: 'HOME', link: '#Section_1' },
-    { label: 'ABOUT US', link: '#Section_2' },
-    { label: 'OUR TEAM', link: '#Section_3' },
-    { label: 'EVENTS', link: '#Section_4' },
-    { label: 'ARCHIVES', link: '#Section_5' },
-    { label: 'CONTACT US', link: '#Section_6' },
-  ]
-
   const [hideImage, setHideImage] = useState(false)
   const [hideButton, setHideButton] = useState(false)
 
@@ -46,10 +38,10 @@ export default function Header() {
         />
         <div
           className={`flex gap-2 px-4 py-1 ${
-            hideImage ? 'bg-[#1D2229] rounded-3xl' : ''
+            hideImage ? 'bg-tertiary rounded-3xl' : ''
           }`}
         >
-          {tabs.map((tab) => (
+          {navLinks.map((tab) => (
             <a key={tab.label} href={tab.link}>
               <p className="hover:text-white text-gray-400 hover:underline hover:underline-offset-8 text-xl font-bold p-2">
                 {tab.label}
