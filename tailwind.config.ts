@@ -20,6 +20,7 @@ module.exports = {
         primary: '#55C106',
         secondary: '#121316',
         tertiary: '#1D2229',
+        buttonShade: '#A1F65E',
       },
       boxShadow: {
         primary: '0 3px 13px 2px rgba(255,255,255)',

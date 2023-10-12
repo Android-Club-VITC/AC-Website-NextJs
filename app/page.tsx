@@ -3,9 +3,9 @@ import Section_2 from './(Home)/Section2'
 
 export default function page() {
   return (
-    <div>
+    <>
       <Section_1 />
       <Section_2 />
-    </div>
+    </>
   )
 }
