@@ -4,6 +4,8 @@
 
 ![Status Deployed](https://img.shields.io/badge/Status-Deployed-green.svg)
 ![Deployed Branch Main](https://img.shields.io/badge/Deployed_Branch-Main-green.svg)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Community](https://img.shields.io/badge/Join-Community-blue)](https://discord.gg/agyWAenzJu)
 
 Welcome to the Android Club VIT Chennai Website repository! We're excited to have you here and would love your contributions to make our website even better.
 
@@ -12,9 +14,12 @@ Welcome to the Android Club VIT Chennai Website repository! We're excited to hav
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [How to run the project](#how-to-run-the-project)
 - [Contributing](#contributing)
   - [How to Contribute](#how-to-contribute)
+- [Additional details](#additional-details)
+  - [Authors](#authors)
+  - [License](#license)
 
 ## About the Project
 
@@ -49,7 +54,7 @@ Before you begin contributing to the project, make sure you have the following i
 - [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 - A modern code editor like [Visual Studio Code](https://code.visualstudio.com/)
 
-### Installation
+### How to run the project
 
 1. Fork and clone this repository.
 
@@ -79,26 +84,21 @@ Before you begin contributing to the project, make sure you have the following i
 
 ## Contributing
 
-We welcome contributions from the open-source community! By contributing, you can help us improve the Android Club VIT Chennai website.
+We welcome contributions from the open-source community!
+By contributing, you can help us improve the Android Club VIT Chennai website
 
 ### How to Contribute
 
-1. Fork this repository.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-2. Create a branch for your feature or bug fix.
+## Additional details
 
-   ```
-   git checkout -b feature/your-feature-name
-   ```
+### Authors
 
-3. Make your changes and commit them with descriptive commit messages.
+<a href="https://github.com/Android-Club-VITC/AC-Website-NextJs/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Android-Club-VITC/AC-Website-NextJs" />
+</a>
 
-4. Push your changes to your fork.
+### License
 
-   ```
-   git push origin feature/your-feature-name
-   ```
-
-5. Create a pull request to the `main` branch of this repository. Please provide a clear description of your changes in the pull request.
-
-6. Your pull request will be reviewed, and once approved, it will be merged into the main repository.
+This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
