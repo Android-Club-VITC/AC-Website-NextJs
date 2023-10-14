@@ -14,8 +14,8 @@ const Section_4 = () => {
   }) => {
     return (
       <div className="bg-secondary p-6 rounded-2xl md:w-1/3">
-        <div className="flex justify-center">
-          <Image src={event.img} alt={event.name} />
+        <div className="flex justify-center h-80" >
+          <Image src={event.img} alt={event.name}  />
         </div>
         <div className="pt-4">
           <p className="font-bold text-primary text-3xl">
@@ -60,7 +60,7 @@ const Section_4 = () => {
         </h1>
         <div className='pt-12'>{upcomingEventCard(upcomingEvent)}</div>
         <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
-          // CHECKOUT OUR PREVIOUS EVENTS
+          // CHECKOUT OUR PREVIOUS EVENTS HHHEE
         </h1>
         <div className="mt-12 flex md:flex-row flex-col gap-6 justify-around">
           {events.map((event: any) => eventCard(event))}
