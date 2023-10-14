@@ -60,7 +60,7 @@ const Section_4 = () => {
         </h1>
         <div className='pt-12'>{upcomingEventCard(upcomingEvent)}</div>
         <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
-          // CHECKOUT OUR PREVIOUS EVENTS HHHEE
+          // CHECKOUT OUR PREVIOUS EVENTS
         </h1>
         <div className="mt-12 flex md:flex-row flex-col gap-6 justify-around">
           {events.map((event: any) => eventCard(event))}
