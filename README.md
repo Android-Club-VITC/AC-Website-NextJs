@@ -77,7 +77,7 @@ Before you begin contributing to the project, make sure you have the following i
 4. Start the development server.
 
    ```
-   npm start
+   npm run dev
    ```
 
 5. Open your web browser and access the website at `http://localhost:3000`.
