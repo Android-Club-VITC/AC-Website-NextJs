@@ -14,8 +14,8 @@ const Section_4 = () => {
   }) => {
     return (
       <div className="bg-secondary p-6 rounded-2xl md:w-1/3">
-        <div className="flex justify-center h-80" >
-          <Image src={event.img} alt={event.name}  />
+        <div className="flex justify-center h-80">
+          <Image src={event.img} alt={event.name} />
         </div>
         <div className="pt-4">
           <p className="font-bold text-primary text-3xl">
@@ -39,14 +39,18 @@ const Section_4 = () => {
           <p className="font-bold text-primary text-7xl">
             {event.name.toUpperCase()}
           </p>
-          <div className='flex gap-6'>
+          <div className="flex gap-6">
             <div className="h-full bg-white w-2"></div>
-          <p className="text-xl">{event.description.toUpperCase()}</p>
+            <p className="text-xl">{event.description.toUpperCase()}</p>
           </div>
-          <Button class='text-xl' text="REGISTER NOW" url={event.url} />
+          <Button class="text-xl" text="REGISTER NOW" url={event.url} />
         </div>
         <div className="flex justify-center w-1/2">
-          <Image src={event.img} alt={event.name} className='rounded-lg border-2 border-white w-fit' />
+          <Image
+            src={event.img}
+            alt={event.name}
+            className="rounded-lg border-2 border-white w-fit"
+          />
         </div>
       </div>
     )
@@ -58,7 +62,7 @@ const Section_4 = () => {
         <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
           // UPCOMING EVENTS
         </h1>
-        <div className='pt-12'>{upcomingEventCard(upcomingEvent)}</div>
+        <div className="pt-12">{upcomingEventCard(upcomingEvent)}</div>
         <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
           // CHECKOUT OUR PREVIOUS EVENTS
         </h1>
