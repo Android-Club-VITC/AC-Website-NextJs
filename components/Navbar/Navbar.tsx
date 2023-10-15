@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import logo from '@/assets/logo.png'
-import Button from './Button'
 import { navLinks } from '@/constants/navLinks'
+import Button from '../Button/Button'
 
 export default function Header() {
   const [hideImage, setHideImage] = useState(false)

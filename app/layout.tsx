@@ -1,10 +1,9 @@
 import type { Metadata } from 'next'
 import { Odibee_Sans } from 'next/font/google'
-import StarsCanvas from '@/components/canvas/Background_Stars'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import StarsCanvas from '@/components/Canvas/StarCanvas'
+import Header from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
 import './globals.css'
-import FooterCard from './(Home)/FooterCard'
 
 const odibeeSans = Odibee_Sans({
   subsets: ['latin'],
@@ -36,7 +35,6 @@ export default function RootLayout({
         <StarsCanvas />
         <Header />
         {children}
-        <FooterCard />
         <Footer />
       </body>
     </html>

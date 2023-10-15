@@ -2,12 +2,12 @@
 // we need to optimise this somehow use of sectionWrapper is not good...
 // ~Shubham
 import Link from 'next/link'
-import Button from '@/components/Button'
+import Button from '@/components/Button/Button'
 import { SectionWrapper } from '@/components/HOC'
 
 function Section_1() {
   return (
-    <div className="p-24">
+    <div className="p-24" id="#Section_3">
       <div className="flex flex-col animate-slideleftT2 gap-4 text-9xl font-medium">
         <p>ANDROID CLUB</p>
         <p>VIT CHENNAI</p>

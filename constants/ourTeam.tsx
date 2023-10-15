@@ -28,7 +28,7 @@ export const values: TeamDataType[] = [
   {
     name: 'SHUBHAM SINGH',
     image: Shubham,
-    role: 'Joint Secretary',
+    role: 'JOINT SECRETARY',
     description:
       "SHUBHAM'S PASSION TOWARDS HIS WORK IS SOMETHING TO LOOK UP TO. HE HAS THE CAPABILITY TO MAKE THE CLUB MORE AWESOME, JUST LIKE HIS UI DESIGNS.",
   },
