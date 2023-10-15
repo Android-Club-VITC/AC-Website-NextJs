@@ -1,91 +1,91 @@
-import Atharv from '@assets/atharv.png'
-import Aditya from '@assets/aditya.png'
-import Ekta from '@assets/ekta.png'
-import Geo from '@assets/geoffrey.png'
-import Pranshu from '@assets/pranshu.jpeg'
-import Karthik from '@assets/karthik.png'
-import Kushagra from '@assets/kushagra.png'
-import Shrestha from '@assets/shrestha.png'
-import Shubham from '@assets/shubham.png'
-import Sparsh from '@assets/sparsh.png'
-import Tushar from '@assets/tushar.png'
+import Atharv from '@assets/team/atharv.png'
+import Aditya from '@assets/team/aditya.png'
+import Ekta from '@assets/team/ekta.png'
+import Geo from '@assets/team/geoffrey.png'
+import Pranshu from '@assets/team/pranshu.jpeg'
+import Karthik from '@assets/team/karthik.png'
+import Kushagra from '@assets/team/kushagra.png'
+import Shrestha from '@assets/team/shrestha.png'
+import Shubham from '@assets/team/shubham.png'
+import Sparsh from '@assets/team/sparsh.png'
+import Tushar from '@assets/team/tushar.png'
 
 export const values: TeamDataType[] = [
   {
-    name: 'Atharv Agarwal',
+    name: 'ATHARV AGARWAL',
     image: Atharv,
-    role: 'Secretary',
+    role: 'SECRETARY',
     description:
-      'A man with passion and compassion at the same time. Truly a person who can drive multiple forces towards the GOAL. I am sure your abilities will drive Android Club towards a successful and fulfilling journey ahead full of triumph and achievements✨.',
+      'A MAN WITH PASSION AND COMPASSION AT THE SAME TIME. TRULY A PERSON WHO CAN DRIVE MULTIPLE FORCES TOWARDS THE GOAL. I AM SURE YOUR ABILITIES WILL DRIVE ANDROID CLUB TOWARDS A SUCCESSFUL AND FULFILLING JOURNEY AHEAD FULL OF TRIUMPH AND ACHIEVEMENTS✨.',
   },
   {
-    name: 'Ekta Saraf',
+    name: 'EKTA SARAF',
     image: Ekta,
-    role: 'Joint Secretary',
+    role: 'JOINT SECRETARY',
     description:
-      ' Ekta is the person who has the desire to run the club and make it successful. Her enthusiasm is just next level. She also has this magic to make people comfortable around her.',
+      'EKTA IS THE PERSON WHO HAS THE DESIRE TO RUN THE CLUB AND MAKE IT SUCCESSFUL. HER ENTHUSIASM IS JUST NEXT LEVEL. SHE ALSO HAS THIS MAGIC TO MAKE PEOPLE COMFORTABLE AROUND HER.',
   },
   {
-    name: 'Shubham Singh',
+    name: 'SHUBHAM SINGH',
     image: Shubham,
     role: 'Joint Secretary',
     description:
-      "Shubham's passion towards his work is something to look up to. He has the capability to make the club more awesome, just like his UI designs.",
+      "SHUBHAM'S PASSION TOWARDS HIS WORK IS SOMETHING TO LOOK UP TO. HE HAS THE CAPABILITY TO MAKE THE CLUB MORE AWESOME, JUST LIKE HIS UI DESIGNS.",
   },
   {
-    name: 'Sparsh Kandpal',
+    name: 'SPARSH KANDPAL',
     image: Sparsh,
-    role: 'Operations Lead',
+    role: 'OPERATIONS LEAD',
     description:
-      'Sparsh is always full of life, no matter the situation. He has his way of captivating people whom he talks with. Hence I can surely say that he will handle operations well.',
+      'SPARSH IS ALWAYS FULL OF LIFE, NO MATTER THE SITUATION. HE HAS HIS WAY OF CAPTIVATING PEOPLE WHOM HE TALKS WITH. HENCE I CAN SURELY SAY THAT HE WILL HANDLE OPERATIONS WELL.',
   },
   {
-    name: 'Aditya Raj Srivastava',
+    name: 'ADITYA RAJ SRIVASTAVA',
     image: Aditya,
-    role: 'Design Lead',
+    role: 'DESIGN LEAD',
     description:
-      ' Aditya showcased his incredible designing skills from day 1 and his motivation and drive for the club is what made me believe he would make an incredible Design Lead.',
+      ' ADITYA SHOWCASED HIS INCREDIBLE DESIGNING SKILLS FROM DAY 1 AND HIS MOTIVATION AND DRIVE FOR THE CLUB IS WHAT MADE ME BELIEVE HE WOULD MAKE AN INCREDIBLE DESIGN LEAD.',
   },
   {
-    name: 'Shrestha Singh',
+    name: 'SHRESTHA SINGH',
     image: Shrestha,
-    role: 'Marketing Lead',
+    role: 'MARKETING LEAD',
     description:
-      "As they all say 'the face of marketing' deserved to be Android Club's Marketing Head. One thins is for sure she is gonna get more resitrations that ever before.",
+      "AS THEY ALL SAY 'THE FACE OF MARKETING' DESERVED TO BE ANDROID CLUB'S MARKETING HEAD. ONE THINS IS FOR SURE SHE IS GONNA GET MORE RESITRATIONS THAT EVER BEFORE.",
   },
   {
-    name: 'Kushagra Garg',
+    name: 'KUSHAGRA GARG',
     image: Kushagra,
-    role: 'Sponsorship Head',
+    role: 'SPONSORSHIP HEAD',
     description:
       "One who couldn't have been left behind. A proper team man and smartness that would take care of experience part. The guarantee card to get big whooping deals.",
   },
   {
-    name: 'Karthik R',
+    name: 'KARTHIK R',
     image: Karthik,
-    role: 'Management Head',
+    role: 'MANAGEMENT HEAD',
     description:
-      'Karthik possesses outstanding communication skills, a remarkable presence of mind, and a quick wit. His ability to stay calm under pressure makes him an excellent individual to ensure smooth operations and effective leadership.',
+      'KARTHIK POSSESSES OUTSTANDING COMMUNICATION SKILLS, A REMARKABLE PRESENCE OF MIND, AND A QUICK WIT. HIS ABILITY TO STAY CALM UNDER PRESSURE MAKES HIM AN EXCELLENT INDIVIDUAL TO ENSURE SMOOTH OPERATIONS AND EFFECTIVE LEADERSHIP.',
   },
   {
-    name: 'Tushar Chopra',
+    name: 'TUSHAR CHOPRA',
     image: Tushar,
-    role: 'Social Media & Content Lead',
+    role: 'SOCIAL MEDIA & CONTENT LEAD',
     description:
-      "Tushar's pleasant demeanour and splash of imagination is why people want to learn more about everything he talks about and what convinces me that he would make a fantastic social media and content lead.,",
+      "TUSHAR'S PLEASANT DEMEANOUR AND SPLASH OF IMAGINATION IS WHY PEOPLE WANT TO LEARN MORE ABOUT EVERYTHING HE TALKS ABOUT AND WHAT CONVINCES ME THAT HE WOULD MAKE A FANTASTIC SOCIAL MEDIA AND CONTENT LEAD.,",
   },
   {
-    name: 'Geoffrey Anto',
+    name: 'GEOFFREY ANTO',
     image: Geo,
-    role: 'Technical Lead',
+    role: 'TECHNICAL LEAD',
     description:
-      'Strong technical knowledge but more importantly approachable and willing to help others.',
+      'STRONG TECHNICAL KNOWLEDGE BUT MORE IMPORTANTLY APPROACHABLE AND WILLING TO HELP OTHERS.',
   },
   {
-    name: 'Pranshu Aggarwal',
+    name: 'PRANSHU AGGARWAL',
     image: Pranshu,
-    role: 'Technical Lead',
+    role: 'TECHNICAL LEAD',
     description:
-      'A person who comes across as sensible, friendly and has a very sound technical knowledge.',
+      'A PERSON WHO COMES ACROSS AS SENSIBLE, FRIENDLY AND HAS A VERY SOUND TECHNICAL KNOWLEDGE.',
   },
 ]
