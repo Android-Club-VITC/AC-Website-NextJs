@@ -21,6 +21,7 @@ module.exports = {
         secondary: '#121316',
         tertiary: '#1D2229',
         buttonShade: '#A1F65E',
+        textShade2: '#00A959',
       },
       boxShadow: {
         primary: '0 3px 13px 2px rgba(255,255,255)',
