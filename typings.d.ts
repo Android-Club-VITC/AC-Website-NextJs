@@ -14,3 +14,11 @@ interface CoreValueType {
   title: string
   description: string
 }
+
+//ourTeam.tsx
+interface TeamDataType {
+  name: string
+  image: any
+  role: string
+  description: string
+}

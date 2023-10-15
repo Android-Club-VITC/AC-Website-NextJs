@@ -1,7 +1,7 @@
 'use client'
 
 import { SectionWrapper } from '@/components/HOC'
-import image from "@assets/card.svg"
+import image from '@assets/card.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { socialMedia } from '@/constants/socielMedia'
