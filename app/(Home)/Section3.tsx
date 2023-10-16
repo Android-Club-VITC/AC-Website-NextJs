@@ -2,7 +2,7 @@
 import React from 'react'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import { SectionWrapper } from '@/components/HOC'
-import Slider from '@/components/OurTeam/TeamSlider'
+import ResponsiveCarousel from '@/components/OurTeam/TeamSlider'
 
 function Section_3() {
   return (
@@ -10,7 +10,7 @@ function Section_3() {
       <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
         // OUR TEAM
       </h1>
-      <Slider />
+      <ResponsiveCarousel />
     </section>
   )
 }

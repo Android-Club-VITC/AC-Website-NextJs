@@ -1,21 +1,26 @@
-'use client'
-import AliceCarousel from 'react-alice-carousel'
-import Image from 'next/image'
 import { values } from '@/constants/ourTeam'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { Carousel } from 'react-responsive-carousel'
+import Image from 'next/image'
 
-const Slider = () => {
-  const responsive = {
-    0: { items: 1 },
-    600: { items: 1 },
-    1024: { items: 2 },
-  }
+export default function ResponsiveCarousel() {
   return (
-    <div>
-      <AliceCarousel responsive={responsive} autoPlay autoPlayInterval={2000}>
+    <div className="flex flex-col justify-center items-center rounded-lg overflow-hidden p-4 shadow-md">
+      <Carousel
+        centerMode
+        centerSlidePercentage={50}
+        showArrows={true}
+        autoPlay={true}
+        showIndicators={true}
+        infiniteLoop={true}
+        dynamicHeight={false}
+        showThumbs={false}
+        className="w-full"
+      >
         {values.map((value) => (
           <div
             key={value.name}
-            className="flex flex-col md:flex-row items-center justify-center gap-10 p-5 rounded-xl bg-secondary my-10 mx-10 h-full md:h-72"
+            className="flex flex-col md:flex-row items-center justify-center gap-10 p-5 rounded-xl bg-secondary m-10 h-full md:h-72"
           >
             <div className="w-1/3">
               <Image
@@ -35,8 +40,7 @@ const Slider = () => {
             </div>
           </div>
         ))}
-      </AliceCarousel>
+      </Carousel>
     </div>
-  )
+  );
 }
-export default Slider
