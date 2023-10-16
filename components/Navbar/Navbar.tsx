@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import logo from '@/assets/logo.png'
 import { navLinks } from '@/constants/navLinks'
-import Button from '../Button/Button'
 
 export default function Header() {
   const [hideImage, setHideImage] = useState(false)
@@ -57,7 +56,7 @@ export default function Header() {
           }`}
         >
           <Link href="#Section_6" title="Section_6">
-            <Button url="#Section_6" text="GET YOUR APP BUILT" />
+            <button>GET YOUR APP BUILT</button>
           </Link>
         </div>
       </div>

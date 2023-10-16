@@ -2,7 +2,6 @@
 // we need to optimise this somehow use of sectionWrapper is not good...
 // ~Shubham
 import Link from 'next/link'
-import Button from '@/components/Button/Button'
 import { SectionWrapper } from '@/components/HOC'
 
 function Section_1() {
@@ -14,7 +13,9 @@ function Section_1() {
         <hr className="text-white border-2 border-white w-32" />
       </div>
       <div className="mt-6 flex animate-slideleftT3 items-center text-xl gap-16">
-        <Button url="#Section_4" text="UPCOMING EVENTS" />
+        <Link href="#Section_4">
+          <button> UPCOMING EVENTS </button>
+        </Link>
         <Link href="#Section_2">LEARN MORE</Link>
       </div>
       <div className="flex animate-slideleftT4 flex-col gap-4 text-2xl mt-6">

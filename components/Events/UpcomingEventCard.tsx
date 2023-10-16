@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Button from '@/components/Button/Button'
+import Link from 'next/link'
 
 const UpcomingEventCard = (event: {
   img: any
@@ -18,7 +18,9 @@ const UpcomingEventCard = (event: {
           <div className="h-full bg-white w-2"></div>
           <p className="text-xl">{event.description.toUpperCase()}</p>
         </div>
-        <Button class="text-xl" text="REGISTER NOW" url={event.url} />
+        <Link href={event.url}>
+          <button>REGISTER NOW</button>
+        </Link>
       </div>
       <div className="flex justify-center w-1/2">
         <Image
