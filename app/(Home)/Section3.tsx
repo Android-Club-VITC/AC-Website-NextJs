@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import 'react-alice-carousel/lib/alice-carousel.css'
 import { SectionWrapper } from '@/components/HOC'
 import ResponsiveCarousel from '@/components/OurTeam/TeamSlider'
 
