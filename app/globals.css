@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+button {
+  @apply text-white font-bold p-2 px-4 border-2 border-white;
+}

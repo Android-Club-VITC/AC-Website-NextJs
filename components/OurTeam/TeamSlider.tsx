@@ -26,7 +26,9 @@ const Slider = () => {
             </div>
             <div className="px-4 py-2 border-l-2 border-gray-500 w-full  md:w-2/3">
               <p className="name text-primary text-3xl">{value.name}</p>
-              <p className="designation text-textShade2 text-xl">{value.role}</p>
+              <p className="designation text-textShade2 text-xl">
+                {value.role}
+              </p>
               <p className="description mt-4 text-gray-300">
                 {value.description}
               </p>

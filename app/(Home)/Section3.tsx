@@ -2,12 +2,14 @@
 import React from 'react'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import { SectionWrapper } from '@/components/HOC'
-import Slider from '@/components/Slider'
+import Slider from '@/components/OurTeam/TeamSlider'
 
 function Section_3() {
   return (
     <section className="w-full md:p-24" id="#Section_3">
-      <h1 className="text-xl md:text-8xl text-center my-6">OUR TEAM</h1>
+      <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
+        // OUR TEAM
+      </h1>
       <Slider />
     </section>
   )
