@@ -1,13 +1,31 @@
+'use client'
 import { values } from '@/constants/ourTeam'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 const ResponsiveCarousel = () => {
+  const [slidesToShow, setSlidesToShow] = useState(2)
+  useEffect(() => {
+    const updateSlidesToShow = () => {
+      if (window.innerWidth <= 768) {
+        setSlidesToShow(1)
+      } else {
+        setSlidesToShow(2)
+      }
+    }
+    updateSlidesToShow()
+    window.addEventListener('resize', updateSlidesToShow)
+    return () => {
+      window.removeEventListener('resize', updateSlidesToShow)
+    }
+  }, [])
+
   const settings = {
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
