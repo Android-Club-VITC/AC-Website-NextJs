@@ -9,7 +9,7 @@ import { SectionWrapper } from '@/components/HOC'
 const Section_2 = () => {
   return (
     <>
-       <section className="w-full md:p-24" id="#Section_2">
+      <section className="w-full md:p-24" id="#Section_2">
         <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
           // OUR CORE WORK VALUES
         </h1>
