@@ -51,14 +51,14 @@ export const values: TeamDataType[] = [
     image: Shrestha,
     role: 'MARKETING LEAD',
     description:
-      "AS THEY ALL SAY 'THE FACE OF MARKETING' DESERVED TO BE ANDROID CLUB'S MARKETING HEAD. ONE THINS IS FOR SURE SHE IS GONNA GET MORE RESITRATIONS THAT EVER BEFORE.",
+      "AS THEY ALL SAY 'THE FACE OF MARKETING' DESERVED TO BE ANDROID CLUB'S MARKETING HEAD. ONE THINS IS FOR SURE SHE IS GONNA GET MORE REGISTRATIONS THAT EVER BEFORE.",
   },
   {
     name: 'KUSHAGRA GARG',
     image: Kushagra,
     role: 'SPONSORSHIP HEAD',
     description:
-      "One who couldn't have been left behind. A proper team man and smartness that would take care of experience part. The guarantee card to get big whooping deals.",
+      "ONE WHO COULDN'T HAVE BEEN LEFT BEHIND. A PROPER TEAM MAN AND SMARTNESS THAT WOULD TAKE CARE OF EXPERIENCE PART. THE GUARANTEE CARD TO GET BIG WHOOPING DEALS.",
   },
   {
     name: 'KARTHIK R',
