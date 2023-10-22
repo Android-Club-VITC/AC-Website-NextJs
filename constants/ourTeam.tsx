@@ -7,7 +7,7 @@ import Karthik from '@assets/team/karthik.png'
 import Kushagra from '@assets/team/kushagra.png'
 import Shrestha from '@assets/team/shrestha.png'
 import Shubham from '@assets/team/shubham.png'
-import Sparsh from '@assets/team/sparsh.png'
+import Sparsh from '@assets/team/sparsh.jpg'
 import Tushar from '@assets/team/tushar.png'
 
 export const values: TeamDataType[] = [
