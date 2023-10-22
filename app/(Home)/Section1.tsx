@@ -6,7 +6,7 @@ import { SectionWrapper } from '@/components/HOC'
 
 function Section_1() {
   return (
-    <section className="w-full md:p-24" id="#Section_1">
+    <section className="p-6 w-full md:p-24" id="#Section_1">
       <div className="flex flex-col animate-slideleftT2 gap-4 text-9xl font-medium">
         <p>ANDROID CLUB</p>
         <p>VIT CHENNAI</p>
