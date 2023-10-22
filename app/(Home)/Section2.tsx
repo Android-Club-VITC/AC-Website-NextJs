@@ -17,7 +17,7 @@ const Section_2 = () => {
           {values.map((value, index) => (
             <div
               key={index}
-              className="w-1/3 bg-secondary p-12 rounded border-[#485059] border-[1.5px]"
+              className="md:w-1/3 bg-secondary p-12 rounded border-[#485059] border-[1.5px]"
             >
               <Image
                 priority
