@@ -8,7 +8,7 @@ import { socialMedia } from '@/constants/socialMedia'
 
 function FooterCard() {
   return (
-    <div className="p-24">
+    <div className="p-4 md:p-24">
       <Image src={image} alt="image" className="w-full" />
       <div className="bg-secondary p-12 rounded-b-3xl">
         <div className="flex flex-col md:flex-row justify-around">

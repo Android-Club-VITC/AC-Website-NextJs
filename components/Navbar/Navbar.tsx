@@ -28,16 +28,16 @@ export default function Header() {
 
   return (
     <div className={`sticky top-0 z-10 p-1 px-6 w-full`}>
-      <div className={`flex justify-around items-center`}>
+      <div className={`flex justify-between items-center`}>
         <Image
           src={logo}
           alt="logo"
-          className={`w-1/12 transition-opacity duration-300 ${
+          className={`w-1/5 md:w-1/12 transition-opacity duration-300 ${
             hideImage ? 'opacity-0' : 'opacity-100'
           }`}
         />
         <div
-          className={`flex gap-2 px-4 py-1 ${
+          className={`gap-2 px-4 py-1 hidden md:flex ${
             hideImage ? 'bg-tertiary rounded-3xl' : ''
           }`}
         >
@@ -51,13 +51,19 @@ export default function Header() {
         </div>
 
         <div
-          className={`transition-opacity text-xl duration-300 ${
+          className={`transition-opacity text-xl duration-300 hidden md:block ${
             hideButton ? 'opacity-0' : 'opacity-100'
           }`}
         >
           <Link href="#Section_6" title="Section_6">
             <button>GET YOUR APP BUILT</button>
           </Link>
+        </div>
+
+        <div className="flex md:hidden">
+          <button className="p-2">
+            <i className="fa-solid fa-bars text-3xl"></i>
+          </button>
         </div>
       </div>
     </div>

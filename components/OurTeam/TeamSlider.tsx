@@ -41,7 +41,7 @@ const ResponsiveCarousel = () => {
                 <Image
                   src={value.image}
                   alt="avatar"
-                  className="rounded-full object-cover bg-white h-44 w-44"
+                  className="rounded-full object-cover bg-white md:h-44 md:w-44"
                 />
               </div>
               <div className="px-4 py-2 border-l-2 border-gray-500 w-full md:w-2/3">
