@@ -10,8 +10,8 @@ const UpcomingEventCard = (event: {
 }) => {
   return (
     <div className="bg-secondary p-6 rounded-2xl flex flex-col-reverse md:flex-row justify-between gap-6">
-      <div className="w-1/2 flex flex-col gap-8">
-        <p className="font-bold text-primary text-7xl">
+      <div className="md:w-1/2 flex flex-col gap-8">
+        <p className="font-bold text-primary text-5xl md:text-7xl">
           {event.name.toUpperCase()}
         </p>
         <div className="flex gap-6">

@@ -9,7 +9,7 @@ import EventCard from '@/components/Events/EventCard'
 const Section_4 = () => {
   return (
     <>
-      <section className="w-full md:p-24" id="#Section_4">
+      <section className="w-full p-4 md:p-24" id="#Section_4">
         <h1 className="px-6 mt-32 font-normal text-3xl sm:text-6xl tracking-wide ">
           // UPCOMING EVENTS
         </h1>
